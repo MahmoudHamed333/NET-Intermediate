@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiThreading.Task2.Chaining")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3a2cf004c9bbc6fa591ce99c105c143c9850b34")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiThreading.Task2.Chaining")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiThreading.Task2.Chaining")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

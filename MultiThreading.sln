@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.852
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreading.Task5.Threads.SharedCollection", "MultiThreading.Task5.Threads.SharedCollection\MultiThreading.Task5.Threads.SharedCollection.csproj", "{3F6E503A-3BD1-4117-803F-DE3A1D3D72EE}"
 EndProject
@@ -16,6 +16,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreading.Task3.MatrixMultiplier.Tests", "MultiThreading.Task3.MatrixMultiplier.Tests\MultiThreading.Task3.MatrixMultiplier.Tests.csproj", "{10CB1471-FE3F-4A2E-8938-D7F1B5CEAA37}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreading.Task4.Threads.Join", "MultiThreading.Task4.Threads.Join\MultiThreading.Task4.Threads.Join.csproj", "{3C9627BE-0041-493D-B2CA-C8CD6B4BB3F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_multithreading", "01_multithreading", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_async_programming", "03_async_programming", "{F100873A-F280-4CC1-8891-CEF90F50A159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +58,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F6E503A-3BD1-4117-803F-DE3A1D3D72EE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5231083A-4936-4CC4-87FE-CFA228AA372D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5CC3D09B-1941-4C28-BDB8-A62BC6BF07B6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0D02D53F-B27C-4185-9BE7-4C83E7783234} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{385391B2-1A7A-4DC7-863D-5A6A0D5400E3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{10CB1471-FE3F-4A2E-8938-D7F1B5CEAA37} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3C9627BE-0041-493D-B2CA-C8CD6B4BB3F5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4B3ECA2-D9D4-486F-B3E2-40B614E3DBBB}

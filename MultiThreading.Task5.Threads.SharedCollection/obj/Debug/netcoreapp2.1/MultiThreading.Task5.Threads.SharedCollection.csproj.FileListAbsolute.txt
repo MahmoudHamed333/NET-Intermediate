@@ -22,3 +22,4 @@ C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\M
 C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.dll
 C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.pdb
 C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.genruntimeconfig.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.sourcelink.json
