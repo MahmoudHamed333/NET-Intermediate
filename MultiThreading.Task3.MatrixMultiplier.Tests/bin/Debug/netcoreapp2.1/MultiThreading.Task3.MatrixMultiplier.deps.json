@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "MultiThreading.Task3.MatrixMultiplier/1.0.0": {
+        "runtime": {
+          "MultiThreading.Task3.MatrixMultiplier.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MultiThreading.Task3.MatrixMultiplier/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

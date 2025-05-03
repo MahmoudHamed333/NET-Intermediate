@@ -1,0 +1,11 @@
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.deps.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.runtimeconfig.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.runtimeconfig.dev.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.pdb
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.csprojAssemblyReference.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.csproj.CoreCompileInputs.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.AssemblyInfoInputs.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.AssemblyInfo.cs
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.2\MultiThreading.Task5.Threads.SharedCollection.pdb

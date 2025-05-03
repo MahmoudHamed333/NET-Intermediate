@@ -1,0 +1,10 @@
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task6.Continuation\bin\Debug\netcoreapp2.2\MultiThreading.Task6.Continuation.deps.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task6.Continuation\bin\Debug\netcoreapp2.2\MultiThreading.Task6.Continuation.runtimeconfig.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task6.Continuation\bin\Debug\netcoreapp2.2\MultiThreading.Task6.Continuation.runtimeconfig.dev.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task6.Continuation\bin\Debug\netcoreapp2.2\MultiThreading.Task6.Continuation.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task6.Continuation\bin\Debug\netcoreapp2.2\MultiThreading.Task6.Continuation.pdb
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task6.Continuation\obj\Debug\netcoreapp2.2\MultiThreading.Task6.Continuation.csproj.CoreCompileInputs.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task6.Continuation\obj\Debug\netcoreapp2.2\MultiThreading.Task6.Continuation.AssemblyInfoInputs.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task6.Continuation\obj\Debug\netcoreapp2.2\MultiThreading.Task6.Continuation.AssemblyInfo.cs
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task6.Continuation\obj\Debug\netcoreapp2.2\MultiThreading.Task6.Continuation.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task6.Continuation\obj\Debug\netcoreapp2.2\MultiThreading.Task6.Continuation.pdb

@@ -1,0 +1,39 @@
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.deps.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.runtimeconfig.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.runtimeconfig.dev.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.pdb
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.pdb
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.csprojAssemblyReference.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.csproj.CoreCompileInputs.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.AssemblyInfoInputs.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.AssemblyInfo.cs
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.csproj.CopyComplete
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.deps.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.runtimeconfig.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.runtimeconfig.dev.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.deps.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.runtimeconfig.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.runtimeconfig.dev.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.csproj.AssemblyReference.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.AssemblyInfoInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.AssemblyInfo.cs
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThr.755D06E7.Up2Date
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.Tests.genruntimeconfig.cache

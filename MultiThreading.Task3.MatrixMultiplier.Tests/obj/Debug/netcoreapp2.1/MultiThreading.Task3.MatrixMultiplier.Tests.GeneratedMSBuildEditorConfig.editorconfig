@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = MultiThreading.Task3.MatrixMultiplier.Tests
+build_property.ProjectDir = C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.MatrixMultiplier.Tests\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
