@@ -1,0 +1,39 @@
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.deps.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.runtimeconfig.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.runtimeconfig.dev.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.pdb
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.csproj.CoreCompileInputs.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.AssemblyInfoInputs.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.AssemblyInfo.cs
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.pdb
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.csprojAssemblyReference.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.deps.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.runtimeconfig.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.runtimeconfig.dev.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.csproj.AssemblyReference.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.AssemblyInfoInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.AssemblyInfo.cs
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.genruntimeconfig.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.sourcelink.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.deps.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.runtimeconfig.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.runtimeconfig.dev.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.dll
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\bin\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.pdb
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.csproj.AssemblyReference.cache
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.AssemblyInfoInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.AssemblyInfo.cs
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.sourcelink.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.dll
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.pdb
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task3.Matrixes\obj\Debug\netcoreapp2.1\MultiThreading.Task3.MatrixMultiplier.genruntimeconfig.cache

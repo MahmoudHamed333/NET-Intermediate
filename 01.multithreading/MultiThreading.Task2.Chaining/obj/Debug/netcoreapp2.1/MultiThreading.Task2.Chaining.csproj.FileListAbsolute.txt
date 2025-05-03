@@ -1,0 +1,39 @@
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.deps.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.runtimeconfig.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.runtimeconfig.dev.json
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.pdb
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.csproj.CoreCompileInputs.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.AssemblyInfoInputs.cache
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.AssemblyInfo.cs
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.dll
+d:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.pdb
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.csprojAssemblyReference.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.deps.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.runtimeconfig.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.runtimeconfig.dev.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.csproj.AssemblyReference.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.AssemblyInfoInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.AssemblyInfo.cs
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.genruntimeconfig.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.sourcelink.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.deps.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.runtimeconfig.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.runtimeconfig.dev.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.dll
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\bin\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.pdb
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.csproj.AssemblyReference.cache
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.AssemblyInfoInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.AssemblyInfo.cs
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.sourcelink.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.dll
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.pdb
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task2.Chaining\obj\Debug\netcoreapp2.1\MultiThreading.Task2.Chaining.genruntimeconfig.cache

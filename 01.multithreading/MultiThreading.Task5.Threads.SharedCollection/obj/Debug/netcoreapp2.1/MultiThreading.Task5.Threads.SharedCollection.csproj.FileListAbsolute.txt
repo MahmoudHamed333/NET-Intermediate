@@ -1,0 +1,39 @@
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.deps.json
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.runtimeconfig.json
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.runtimeconfig.dev.json
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.dll
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.pdb
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.csprojAssemblyReference.cache
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.csproj.CoreCompileInputs.cache
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.AssemblyInfoInputs.cache
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.AssemblyInfo.cs
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.dll
+D:\EPAM\Mentoring\Anastasiya\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.deps.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.runtimeconfig.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.runtimeconfig.dev.json
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.csproj.AssemblyReference.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.AssemblyInfoInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.AssemblyInfo.cs
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.dll
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.pdb
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.genruntimeconfig.cache
+C:\Users\Mahmoud_Hamed\Downloads\01.multithreading.v.1.2 (1)\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.sourcelink.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.deps.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.runtimeconfig.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.runtimeconfig.dev.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.dll
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\bin\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.pdb
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.csproj.AssemblyReference.cache
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.AssemblyInfoInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.AssemblyInfo.cs
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.sourcelink.json
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.dll
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.pdb
+C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\obj\Debug\netcoreapp2.1\MultiThreading.Task5.Threads.SharedCollection.genruntimeconfig.cache
