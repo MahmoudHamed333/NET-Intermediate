@@ -19,8 +19,6 @@ namespace MultiThreading.Task5.Threads.SharedCollection
 
         private static ManualResetEventSlim itemAddEvent = new ManualResetEventSlim(false);
 
-        private static bool producerFinished = false;
-
         static void Main(string[] args)
         {
             Console.WriteLine("5. Write a program which creates two threads and a shared collection:");
@@ -31,9 +29,9 @@ namespace MultiThreading.Task5.Threads.SharedCollection
             Task consumerTask = Task.Run(() => ConsumerThread());
             Task producerTask = Task.Run(() => ProducerThread());
 
-            Task.WaitAll(producerTask, consumerTask);
+            Task.WaitAll(producerTask);
 
-            Console.WriteLine("All tasks completed.");
+            Console.WriteLine("Producer task completed.");
             Console.ReadLine();
         }
 
@@ -48,13 +46,9 @@ namespace MultiThreading.Task5.Threads.SharedCollection
                     Console.WriteLine($"Producer added: {i}");
                 }
 
-                itemAddEvent.Set();
-                itemAddEvent.Reset();
-                Thread.Sleep(100);
+                itemAddEvent.Set(); 
             }
 
-            producerFinished = true;
-            itemAddEvent.Set();
             Console.WriteLine("Producer finished adding items.");
         }
 
@@ -64,22 +58,18 @@ namespace MultiThreading.Task5.Threads.SharedCollection
             while (true)
             {
                 itemAddEvent.Wait();
+                itemAddEvent.Reset();
 
                 lock (_lock)
                 {
                     Console.WriteLine("\nConsumer: Current collection contents");
                     foreach (var item in sharedCollection)
                     {
-                        Console.Write($"{item}");
+                        Console.Write($"{item} ");
                     }
                     Console.WriteLine();
                 }
-                if (producerFinished)
-                {
-                    break;
-                }
             }
-            Console.WriteLine("Consumer finished reading items.");
         }
     }
 }
