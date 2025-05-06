@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiThreading.Task4.Threads.Join")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13a2adb4bc2acdd94180294645e911a1c6e841be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9977354b5b332efcda8e45171baf38c5fad1ce23")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiThreading.Task4.Threads.Join")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiThreading.Task4.Threads.Join")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

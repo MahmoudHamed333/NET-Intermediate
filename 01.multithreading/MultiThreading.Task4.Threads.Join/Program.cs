@@ -18,93 +18,63 @@ namespace MultiThreading.Task4.Threads.Join
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("4.	Write a program which recursively creates 10 threads.");
-            Console.WriteLine("Each thread should be with the same body and receive a state with integer number, decrement it, print and pass as a state into the newly created thread.");
-            Console.WriteLine("Implement all of the following options:");
-            Console.WriteLine();
-            Console.WriteLine("- a) Use Thread class for this task and Join for waiting threads.");
-            Console.WriteLine("- b) ThreadPool class for this task and Semaphore for waiting threads.");
-
+            Console.WriteLine("4. Write a program which recursively creates 10 threads.");
+            Console.WriteLine("Each thread should decrement a state, print it, and pass it to the next thread.");
+            Console.WriteLine("Options:");
+            Console.WriteLine("- a) Use Thread class with Join.");
+            Console.WriteLine("- b) Use ThreadPool class with Semaphore.");
             Console.WriteLine();
 
-            Console.WriteLine("Option A: Using Thread class with JOIN");
-            CreateThreadRecursively(10);
+            Console.WriteLine("Option A: Using Thread class with Join");
+            StartThreadRecursively(10);
 
             Console.WriteLine();
 
             Console.WriteLine("Option B: Using ThreadPool class with Semaphore");
-            CreateThreadPoolRecursively(10);
+            StartThreadPoolRecursively(10);
 
             Console.ReadLine();
         }
 
-        // Option A: Using Thread class with JOIN
-        static void CreateThreadRecursively(int counter)
+        static void StartThreadRecursively(int counter)
         {
-            if (counter <= 0)
-                return;
+            if (counter <= 0) return;
 
-            Thread thread = new Thread((state) =>
+            Thread thread = new Thread(state =>
             {
                 int count = (int)state;
-                count--;
                 Console.WriteLine($"Thread ID: {Thread.CurrentThread.ManagedThreadId}, Counter: {count}");
-
-                if (count > 0)
+                if (count > 1)
                 {
-                    Thread childThread = new Thread(new ParameterizedThreadStart(ThreadProc));
-                    childThread.Start(count);
-                    childThread.Join(); // Wait for the child thread to finish
+                    StartThreadRecursively(count - 1);
                 }
             });
 
             thread.Start(counter);
-            thread.Join(); // Wait for the main thread to finish
+            thread.Join();
         }
 
-        static void ThreadProc(object state)
+        static void StartThreadPoolRecursively(int counter)
         {
-            int count = (int)state;
-            count--;
-            Console.WriteLine($"Thread ID: {Thread.CurrentThread.ManagedThreadId}, Counter: {count}");
-            if (count > 0)
+            Semaphore semaphore = new Semaphore(0, 1);
+
+            void ThreadPoolProc(int count)
             {
-                Thread childThread = new Thread(new ParameterizedThreadStart(ThreadProc));
-                childThread.Start(count);
-                childThread.Join(); // Wait for the child thread to finish
-            }
-        }
-
-        // Option B: Using ThreadPool class with Semaphore
-        static void CreateThreadPoolRecursively(int counter)
-        {
-            Semaphore semaphore = new Semaphore(0, 10);
-
-            ThreadPoolThreadProc(counter, semaphore);
-        }
-
-        static void ThreadPoolThreadProc(int counter, Semaphore semaphore)
-        {
-            if (counter <= 0)
-            {
-                semaphore.Release();
-                return;
-            }
-
-            ThreadPool.QueueUserWorkItem((state) =>
-            {
-                int count = counter - 1;
-                Console.WriteLine($"Thread ID: {Thread.CurrentThread.ManagedThreadId}, Counter: {count}");
-
-                if (count > 0)
-                {
-                    ThreadPoolThreadProc(count, semaphore);
-                }
-                else
+                if (count <= 0)
                 {
                     semaphore.Release();
+                    return;
                 }
-            });
+
+                ThreadPool.QueueUserWorkItem(_ =>
+                {
+                    Console.WriteLine($"Thread ID: {Thread.CurrentThread.ManagedThreadId}, Counter: {count}");
+                    ThreadPoolProc(count - 1);
+                });
+            }
+
+            ThreadPoolProc(counter);
+            semaphore.WaitOne(); 
         }
     }
 }
