@@ -14,145 +14,85 @@ namespace MultiThreading.Task6.Continuation
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Create a Task and attach continuations to it according to the following criteria:");
-            Console.WriteLine("a.    Continuation task should be executed regardless of the result of the parent task.");
-            Console.WriteLine("b.    Continuation task should be executed when the parent task finished without success.");
-            Console.WriteLine("c.    Continuation task should be executed when the parent task would be finished with fail and parent task thread should be reused for continuation.");
-            Console.WriteLine("d.    Continuation task should be executed outside of the thread pool when the parent task would be cancelled.");
-            Console.WriteLine("Demonstrate the work of the each case with console utility.");
-            Console.WriteLine();
+            Console.WriteLine("Enter the result type for the main task:");
+            Console.WriteLine("1 - Success");
+            Console.WriteLine("2 - Failure");
+            Console.WriteLine("3 - Cancellation");
+            Console.Write("Your choice: ");
+            var input = Console.ReadLine();
 
-            await ContinueWhenAll();
-            Console.WriteLine("\nPress any key to continue...");
+            var cts = new CancellationTokenSource();
+            var mainTask = MainTask(input, cts.Token);
+
+            var continuationA = mainTask.ContinueWith(ContinuationA, TaskContinuationOptions.None);
+            var continuationB = mainTask.ContinueWith(ContinuationB, TaskContinuationOptions.OnlyOnFaulted);
+            var continuationC = mainTask.ContinueWith(ContinuationC, TaskContinuationOptions.OnlyOnFaulted | TaskContinuationOptions.ExecuteSynchronously);
+            var continuationD = mainTask.ContinueWith(ContinuationD, TaskContinuationOptions.OnlyOnCanceled);
+
+            Task.WhenAny(continuationA, continuationB, continuationC, continuationD);
             Console.ReadKey();
-            Console.Clear();
-
-            await ContinueWhenFaulted();
-            Console.WriteLine("\nPress any key to continue...");
-            Console.ReadKey();
-            Console.Clear();
-
-            await ContinueWhenFaultedWithSameThread();
-            Console.WriteLine("\nPress any key to continue...");
-            Console.ReadKey();
-            Console.Clear();
-
-
-            Console.ReadLine();
         }
 
-        static async Task ContinueWhenAll()
+        static Task<int> MainTask(string input, CancellationToken token)
         {
-            Console.WriteLine("A: Continue regardless of parent task result");
-            Console.WriteLine("----------------------------------------------");
-
-            // Test with successful parent task
-            Console.WriteLine("\nTest with sucessful parent task");
-            var successfulTask = Task.Run(() =>
+            return Task.Run(() =>
             {
-                Console.WriteLine($"Parent task started on thread {Thread.CurrentThread.ManagedThreadId}");
+                Console.WriteLine($"Main task started on thread {Thread.CurrentThread.ManagedThreadId}");
                 Thread.Sleep(1000);
-                Console.WriteLine("Parent task completed successfully");
-                return 42;
-            });
 
-            var continuationTask = successfulTask.ContinueWith(t =>
-            {
-                Console.WriteLine($"Continuation task started on thread {Thread.CurrentThread.ManagedThreadId}");
-                Console.WriteLine($"Parent task status: {t.Status}");
-
-                if (t.IsCompletedSuccessfully)
+                switch (input)
                 {
-                    Console.WriteLine($"Parent task result: {t.Result}");
+                    case "1":
+                        Console.WriteLine("Main task completed successfully.");
+                        return 42;
+                    case "2":
+                        Console.WriteLine("Main task throwing exception.");
+                        throw new InvalidOperationException("Task failed intentionally.");
+                    case "3":
+                        Console.WriteLine("Main task canceled.");
+                        token.ThrowIfCancellationRequested();
+                        return 0;
+                    default:
+                        throw new ArgumentException("Invalid input.");
                 }
-            },TaskContinuationOptions.None);
-            await continuationTask;
-
-            // Test with failed parent task
-            Console.WriteLine("\nTest with failed parent task");
-            var failedTask = Task.Run(() =>
-            {
-                Console.WriteLine($"Parent task started on thread {Thread.CurrentThread.ManagedThreadId}");
-                Thread.Sleep(1000);
-                Console.WriteLine("Parent task throwing exception");
-                throw new InvalidOperationException("Task failed intentionally");
-            });
-
-            var continuationAfterFailure = failedTask.ContinueWith(t =>
-            {
-                Console.WriteLine($"Continuation task started on thread {Thread.CurrentThread.ManagedThreadId}");
-                Console.WriteLine($"Parent task status: {t.Status}");
-                if (t.IsFaulted)
-                {
-                    Console.WriteLine($"Parent task exception: {t.Exception.InnerException.Message}");
-                }
-            }, TaskContinuationOptions.None);
-
-            await continuationAfterFailure;
+            }, token);
         }
 
-        static async Task ContinueWhenFaulted()
+        static void ContinuationA(Task<int> task)
         {
-            Console.WriteLine("B: Continue only when parent task fails");
-            Console.WriteLine("----------------------------------------------");
-            var successTask = Task.Run(() =>
+            Console.WriteLine($"Continuation A started on thread {Thread.CurrentThread.ManagedThreadId}");
+            Console.WriteLine($"Parent task status: {task.Status}");
+            if (task.IsCompletedSuccessfully)
             {
-                Console.WriteLine($"Parent task started on thread {Thread.CurrentThread.ManagedThreadId}");
-                Thread.Sleep(1000);
-                Console.WriteLine("Parent task completed successfully");
-                return 42;
-            });
-
-            var noRunContinuation = successTask.ContinueWith(t =>
+                Console.WriteLine($"Parent task result: {task.Result}");
+            }
+            else if (task.IsFaulted)
             {
-                Console.WriteLine($"Continuation task started on thread {Thread.CurrentThread.ManagedThreadId}");
-                Console.WriteLine($"Parent task status: {t.Status}");
-                Console.WriteLine($"Parent task exception", t.Exception?.InnerException?.Message);
-            }, TaskContinuationOptions.OnlyOnFaulted);
-
-            // Test with failed parent task (continuation should run)
-            Console.WriteLine("\nTest with failed parent task (continuation should run)");
-            
-            var failedTask = Task.Run(() =>
-            {
-                Console.WriteLine($"Parent task started on thread {Thread.CurrentThread.ManagedThreadId}");
-                Thread.Sleep(1000);
-                Console.WriteLine("Parent task throwing exception");
-                throw new InvalidOperationException("Task failed intentionally");
-            });
-
-            var runContinuation = failedTask.ContinueWith(t =>
-            {
-                Console.WriteLine($"Continuation task started on thread {Thread.CurrentThread.ManagedThreadId}");
-                Console.WriteLine($"Parent task status: {t.Status}");
-                Console.WriteLine($"Parent task exception: {t.Exception.InnerException.Message}");
-            }, TaskContinuationOptions.OnlyOnFaulted);
-
-            await Task.WhenAll(Task.WhenAny(noRunContinuation).ContinueWith(_=> {}), Task.WhenAny(runContinuation));
+                Console.WriteLine($"Parent task exception: {task.Exception.InnerException.Message}");
+            }
         }
 
-        static async Task ContinueWhenFaultedWithSameThread()
+        static void ContinuationB(Task<int> task)
         {
-            Console.WriteLine("C: Continue on same thread when parent task fails");
-            Console.WriteLine("----------------------------------------------");
-            var failedTask = Task.Run(() =>
-            {
-                Console.WriteLine($"Parent task started on thread {Thread.CurrentThread.ManagedThreadId}");
-                Thread.Sleep(1000);
-                Console.WriteLine("Parent task throwing exception");
-                throw new InvalidOperationException("Task failed intentionally");
-            });
-            var continuation = failedTask.ContinueWith(t =>
-            {
-                Console.WriteLine($"Continuation task started on thread {Thread.CurrentThread.ManagedThreadId}");
-                Console.WriteLine($"Parent task status: {t.Status}");
-                Console.WriteLine($"Parent task exception: {t.Exception.InnerException.Message}");
-            }, TaskContinuationOptions.OnlyOnFaulted | TaskContinuationOptions.ExecuteSynchronously);
-           
-            await Task.WhenAny(continuation);
-            Console.WriteLine("\nNote: ExecuteSynchronously attempts to use the same thread when possible");
+            Console.WriteLine($"Continuation B started on thread {Thread.CurrentThread.ManagedThreadId}");
+            Console.WriteLine($"Parent task status: {task.Status}");
+            Console.WriteLine($"Parent task exception: {task.Exception.InnerException.Message}");
+        }
+
+        static void ContinuationC(Task<int> task)
+        {
+            Console.WriteLine($"Continuation C started on thread {Thread.CurrentThread.ManagedThreadId}");
+            Console.WriteLine($"Parent task status: {task.Status}");
+            Console.WriteLine($"Parent task exception: {task.Exception.InnerException.Message}");
+        }
+
+        static void ContinuationD(Task<int> task)
+        {
+            Console.WriteLine($"Continuation D started on thread {Thread.CurrentThread.ManagedThreadId}");
+            Console.WriteLine($"Parent task status: {task.Status}");
+            Console.WriteLine("Parent task was canceled.");
         }
     }
 }
