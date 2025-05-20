@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = MultiThreading.Task5.Threads.SharedCollection
-build_property.ProjectDir = C:\Users\Mahmoud_Hamed\Downloads\test\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\
+build_property.ProjectDir = C:\Users\Mahmoud_Hamed\Downloads\test\test2\NET-Intermediate\01.multithreading\MultiThreading.Task5.Threads.SharedCollection\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

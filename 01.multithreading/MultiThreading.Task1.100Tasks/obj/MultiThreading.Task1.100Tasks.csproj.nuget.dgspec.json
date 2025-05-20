@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task1.100Tasks\\MultiThreading.Task1.100Tasks.csproj": {}
+    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task1.100Tasks\\MultiThreading.Task1.100Tasks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task1.100Tasks\\MultiThreading.Task1.100Tasks.csproj": {
+    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task1.100Tasks\\MultiThreading.Task1.100Tasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task1.100Tasks\\MultiThreading.Task1.100Tasks.csproj",
+        "projectUniqueName": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task1.100Tasks\\MultiThreading.Task1.100Tasks.csproj",
         "projectName": "MultiThreading.Task1.100Tasks",
-        "projectPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task1.100Tasks\\MultiThreading.Task1.100Tasks.csproj",
+        "projectPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task1.100Tasks\\MultiThreading.Task1.100Tasks.csproj",
         "packagesPath": "C:\\Users\\Mahmoud_Hamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task1.100Tasks\\obj\\",
+        "outputPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task1.100Tasks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

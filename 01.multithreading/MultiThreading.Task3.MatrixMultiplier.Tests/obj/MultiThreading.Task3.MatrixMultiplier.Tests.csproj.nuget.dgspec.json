@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.MatrixMultiplier.Tests\\MultiThreading.Task3.MatrixMultiplier.Tests.csproj": {}
+    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.MatrixMultiplier.Tests\\MultiThreading.Task3.MatrixMultiplier.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj": {
+    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj",
+        "projectUniqueName": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj",
         "projectName": "MultiThreading.Task3.MatrixMultiplier",
-        "projectPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj",
+        "projectPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj",
         "packagesPath": "C:\\Users\\Mahmoud_Hamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\obj\\",
+        "outputPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.MatrixMultiplier.Tests\\MultiThreading.Task3.MatrixMultiplier.Tests.csproj": {
+    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.MatrixMultiplier.Tests\\MultiThreading.Task3.MatrixMultiplier.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.MatrixMultiplier.Tests\\MultiThreading.Task3.MatrixMultiplier.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.MatrixMultiplier.Tests\\MultiThreading.Task3.MatrixMultiplier.Tests.csproj",
         "projectName": "MultiThreading.Task3.MatrixMultiplier.Tests",
-        "projectPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.MatrixMultiplier.Tests\\MultiThreading.Task3.MatrixMultiplier.Tests.csproj",
+        "projectPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.MatrixMultiplier.Tests\\MultiThreading.Task3.MatrixMultiplier.Tests.csproj",
         "packagesPath": "C:\\Users\\Mahmoud_Hamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.MatrixMultiplier.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.MatrixMultiplier.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +100,8 @@
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj": {
-                "projectPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj"
+              "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj": {
+                "projectPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task3.Matrixes\\MultiThreading.Task3.MatrixMultiplier.csproj"
               }
             }
           }

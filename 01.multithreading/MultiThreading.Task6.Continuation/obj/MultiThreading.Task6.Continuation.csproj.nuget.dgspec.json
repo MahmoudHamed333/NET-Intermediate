@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj": {}
+    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj": {
+    "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj",
+        "projectUniqueName": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj",
         "projectName": "MultiThreading.Task6.Continuation",
-        "projectPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj",
+        "projectPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task6.Continuation\\MultiThreading.Task6.Continuation.csproj",
         "packagesPath": "C:\\Users\\Mahmoud_Hamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\NET-Intermediate\\01.multithreading\\MultiThreading.Task6.Continuation\\obj\\",
+        "outputPath": "C:\\Users\\Mahmoud_Hamed\\Downloads\\test\\test2\\NET-Intermediate\\01.multithreading\\MultiThreading.Task6.Continuation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

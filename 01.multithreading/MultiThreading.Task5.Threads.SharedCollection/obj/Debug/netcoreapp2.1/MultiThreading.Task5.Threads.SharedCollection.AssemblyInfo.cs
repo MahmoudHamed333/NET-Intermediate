@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiThreading.Task5.Threads.SharedCollection")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b35a5912868265af00326e36b35fefa547b6bf77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a3c6fd19e85ed4dbae1dfbe46ded50415b2b562")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiThreading.Task5.Threads.SharedCollection")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiThreading.Task5.Threads.SharedCollection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
