@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AsyncAwait.Task2.CodeReviewChallenge.props" />
+</Project>
