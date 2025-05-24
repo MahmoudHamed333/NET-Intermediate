@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsyncAwait.Task1.CancellationTokens")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55ef0798e3a47437af47941bd41a4c120e2f0989")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d1aba29e02bc01a2ba2523dfb820c4eb8def92e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsyncAwait.Task1.CancellationTokens")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsyncAwait.Task1.CancellationTokens")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

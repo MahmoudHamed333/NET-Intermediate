@@ -33,8 +33,9 @@ internal class Program
         {
             if (int.TryParse(input, out var n))
             {
-                CalculateSum(n);
+                Task.Run(() => CalculateSumAsync(n)).Wait();
             }
+
             else
             {
                 Console.WriteLine($"Invalid integer: '{input}'. Please try again.");
@@ -48,7 +49,7 @@ internal class Program
         Console.ReadLine();
     }
 
-    private static void CalculateSum(int n)
+    private static async Task CalculateSumAsync(int n)
     {
         using (var cts = new CancellationTokenSource())
         {
@@ -63,7 +64,7 @@ internal class Program
 
             try
             {
-                var sum = Calculator.Calculate(n, cancellationToken);
+                var sum = await Task.Run(() => Calculator.Calculate(n, cancellationToken), cancellationToken);
                 Console.WriteLine($"Sum for {n} = {sum}.");
             }
             catch (OperationCanceledException)
@@ -71,11 +72,9 @@ internal class Program
                 Console.WriteLine($"Sum for {n} cancelled...");
             }
 
-            cancelTask.Wait();
+            await cancelTask;
             Console.WriteLine();
             Console.WriteLine("Enter N: ");
         }
-        Console.WriteLine($"Sum for {n} cancelled...");
-        Console.WriteLine($"The task for {n} started... Enter N to cancel the request:");
     }
 }

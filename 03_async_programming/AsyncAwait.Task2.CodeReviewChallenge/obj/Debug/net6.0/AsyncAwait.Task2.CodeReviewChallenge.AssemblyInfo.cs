@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsyncAwait.Task2.CodeReviewChallenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+668644c7e91bf728a31b0d6604d91912f9e56728")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d1aba29e02bc01a2ba2523dfb820c4eb8def92e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsyncAwait.Task2.CodeReviewChallenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsyncAwait.Task2.CodeReviewChallenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
