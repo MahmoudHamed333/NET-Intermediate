@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 using System.Threading.Tasks;
 using AsyncAwait.Task2.CodeReviewChallenge.Headers;
 using CloudServices.Interfaces;
@@ -31,7 +30,7 @@ public class StatisticMiddleware
         context.Response.Headers.Add(
             CustomHttpHeaders.TotalPageVisits,
             count.ToString());
-        Thread.Sleep(3000); // without this the statistic counter does not work
+        await Task.Delay(3000); 
         await _next(context);
     }
 }
