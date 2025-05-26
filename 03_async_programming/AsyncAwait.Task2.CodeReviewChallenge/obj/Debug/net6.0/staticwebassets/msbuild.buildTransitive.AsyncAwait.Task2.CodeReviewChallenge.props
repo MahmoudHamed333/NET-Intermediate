@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\AsyncAwait.Task2.CodeReviewChallenge.props" />
-</Project>
