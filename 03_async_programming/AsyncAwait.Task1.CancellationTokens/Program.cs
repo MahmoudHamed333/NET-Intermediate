@@ -9,6 +9,7 @@
 
 using System;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace AsyncAwait.Task1.CancellationTokens;
 
@@ -49,37 +50,29 @@ internal class Program
 
     private static void CalculateSum(int n)
     {
-        if (_currentCancellationTokenSource != null && !_currentCancellationTokenSource.Token.IsCancellationRequested)
-        {
-            _currentCancellationTokenSource.Cancel();
-            Console.WriteLine("Previous calculation cancelled...");
-        }
-
+        _currentCancellationTokenSource?.Cancel();
+        _currentCancellationTokenSource?.Dispose();
         _currentCancellationTokenSource = new CancellationTokenSource();
-        var token = _currentCancellationTokenSource.Token;
 
-        Console.WriteLine($"The task for {n} started... Enter N to cancel the request:");
-
-        try
+        _ = Task.Run(() =>
         {
-            var sum =  Calculator.Calculate(n, token);
-
-            if (!token.IsCancellationRequested)
+            try
             {
+                var sum = Calculator.Calculate(n, _currentCancellationTokenSource.Token);
                 Console.WriteLine($"Sum for {n} = {sum}.");
                 Console.WriteLine();
                 Console.WriteLine("Enter N: ");
             }
-        }
-        catch (OperationCanceledException)
-        {
-            Console.WriteLine($"Sum for {n} cancelled...");
-            Console.WriteLine("Enter N: ");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"An error occurred during calculation: {ex.Message}");
-            Console.WriteLine("Enter N: ");
-        }
+            catch (OperationCanceledException)
+            {
+                Console.WriteLine($"Sum for {n} cancelled...");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred during calculation: {ex.Message}");
+                Console.WriteLine("Enter N: ");
+            }
+        });
+        Console.WriteLine($"The task for {n} started... Enter N to cancel the request:");
     }
 }
