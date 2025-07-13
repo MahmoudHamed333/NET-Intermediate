@@ -21,7 +21,7 @@ namespace Expressions.Task3.E3SQueryProvider.QueryProvider
             }
 
             Expr = Expression.Constant(this);
-            QueryProvider = new E3SLinqProvider(client);
+            QueryProvider = new E3SLinqProvider<T>(client.ToString());
         }
 
         #region public properties

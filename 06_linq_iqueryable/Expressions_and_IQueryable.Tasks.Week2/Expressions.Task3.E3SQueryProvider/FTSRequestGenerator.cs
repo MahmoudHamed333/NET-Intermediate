@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Expressions.Task3.E3SQueryProvider
 {
@@ -13,16 +14,14 @@ namespace Expressions.Task3.E3SQueryProvider
         private readonly string _baseAddress;
 
         #region Constructors
-        
+
         public FtsRequestGenerator(string baseAddress)
         {
             _baseAddress = baseAddress;
         }
-
         #endregion
 
         #region public methods
-
         public Uri GenerateRequestUrl<T>(string query = "*", int start = 0, int limit = 10)
         {
             return GenerateRequestUrl(typeof(T), query, start, limit);
@@ -31,7 +30,6 @@ namespace Expressions.Task3.E3SQueryProvider
         public Uri GenerateRequestUrl(Type type, string query = "*", int start = 0, int limit = 10)
         {
             string metaTypeName = GetMetaTypeName(type);
-
             var ftsQueryRequest = new FtsQueryRequest
             {
                 Statements = new List<Statement>
@@ -43,19 +41,40 @@ namespace Expressions.Task3.E3SQueryProvider
                 Start = start,
                 Limit = limit
             };
-
             var ftsQueryRequestString = JsonConvert.SerializeObject(ftsQueryRequest);
-
             var uri = BindByName($"{_baseAddress}{_FTSSearchTemplate}",
                 new Dictionary<string, string>()
                 {
                     { "metaType", metaTypeName },
                     { "query", ftsQueryRequestString }
                 });
-
             return uri;
         }
 
+        // New method to support multiple statements for AND operations
+        public Uri GenerateRequestUrl<T>(List<string> queries, int start = 0, int limit = 10)
+        {
+            return GenerateRequestUrl(typeof(T), queries, start, limit);
+        }
+
+        public Uri GenerateRequestUrl(Type type, List<string> queries, int start = 0, int limit = 10)
+        {
+            string metaTypeName = GetMetaTypeName(type);
+            var ftsQueryRequest = new FtsQueryRequest
+            {
+                Statements = queries.Select(q => new Statement { Query = q }).ToList(),
+                Start = start,
+                Limit = limit
+            };
+            var ftsQueryRequestString = JsonConvert.SerializeObject(ftsQueryRequest);
+            var uri = BindByName($"{_baseAddress}{_FTSSearchTemplate}",
+                new Dictionary<string, string>()
+                {
+                    { "metaType", metaTypeName },
+                    { "query", ftsQueryRequestString }
+                });
+            return uri;
+        }
         #endregion
 
         private static Uri BindByName(string baseAddress, Dictionary<string, string> queryParams)
@@ -64,10 +83,8 @@ namespace Expressions.Task3.E3SQueryProvider
         private static string GetMetaTypeName(Type type)
         {
             var attributes = type.GetCustomAttributes(typeof(E3SMetaTypeAttribute), false);
-
             if (attributes.Length == 0)
                 throw new Exception($"Entity {type.FullName} do not have attribute E3SMetaType");
-
             return ((E3SMetaTypeAttribute)attributes[0]).Name;
         }
     }

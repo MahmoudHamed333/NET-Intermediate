@@ -8,9 +8,9 @@ namespace Expressions.Task3.E3SQueryProvider.QueryProvider
 {
     public class E3SQuery<T> : IQueryable<T>
     {
-        private readonly E3SLinqProvider _provider;
-        
-        public E3SQuery(Expression expression, E3SLinqProvider provider)
+        private readonly E3SLinqProvider<T> _provider; 
+
+        public E3SQuery(Expression expression, E3SLinqProvider<T> provider)
         {
             Expression = expression;
             _provider = provider;
